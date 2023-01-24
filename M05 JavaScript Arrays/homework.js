@@ -180,6 +180,7 @@ function mesesDelAño(array) {
    }
    else if(array[i] === 'Noviembre'){
       nuevoArray.push(array[i]);
+      
    }
    if(nuevoArray.length !==3){
       return "No se encontraron los meses pedidos";
